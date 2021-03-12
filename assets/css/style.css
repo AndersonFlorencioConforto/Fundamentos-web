@@ -1,5 +1,32 @@
 /*Estilos da página index.html*/
+        
+        body{
+            margin: 0px;
+            color: white;
+            font-family: 'Dancing Script', cursive;
+            
+        }
+        header{
+            display: flex;
+            flex-direction: row;
+            margin-left: 20px;
 
+        }
+        h1{
+            font-family: 'Dancing Script', cursive;
+        }
+        h2{
+            font-family: 'Dancing Script', cursive;
+        }
+        
+
+        .color{
+            background-color:white;
+
+        }
+        .p5{
+            font-size: 20px;
+        }
         .p1{
             font-size: 20px;
         }
@@ -9,14 +36,33 @@
         .p2{
             font-size: 50px;
         }
-
+        .p22{
+            font-size: 30px;
+        }
+        .container-2{
+            align-items: flex-end;
+        }
         .container{
             display: flex;
             justify-content: center;
             flex-flow: row;
             align-items: center;
             font-size: 30px;
+        }
+        .container-direita2{
+            margin-left: 1450px;
+            margin-top: 25px;
+        }
 
+        .container-direita{
+            margin-left: 1750px;
+            margin-top: 25px;
+        }
+
+        .container-end{
+            display: flex;
+            align-items: center;
+            
         }
         #menu li{
             display: inline;
@@ -27,7 +73,7 @@
         #menu li a{
             text-decoration: none;
             color: black;
-            font-size: 20px;
+            font-size: 80px;
         }
 
         #menu li a:hover{
@@ -55,6 +101,9 @@
         }
         .mg-up{
             margin-top: 100px;
+        }
+        .section{
+            background:url(https://i.imgur.com/L82Qf6M.jpg);
         }
 
    
